@@ -4,6 +4,10 @@
     font-weight: 100;
     font-style: normal;
   } */
+*{
+    margin: 0;
+    padding: 0;
+}
   .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -314,17 +318,19 @@ input[type="email"]{
 footer{
     background-color: white;
     max-width: 1600;
-    margin: 0 auto;
+
 }
 .footer-title{
     text-align: center;
     font-size: 32px;
     font-weight: 700;
     padding: 50px 50px 0px 50px;
+    margin-bottom: 34px;
 }
 .social-media{
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 50px;
 }
 .social-media a{
     margin-right: 23px;
