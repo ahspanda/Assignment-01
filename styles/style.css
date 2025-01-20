@@ -39,6 +39,9 @@ body{
     border-radius: 8px;
     padding: 17px 34px;
 }
+.text-allign{
+    text-align: center;
+}
                                 /* nav styles */
 
 nav {
@@ -92,7 +95,7 @@ nav li > a{
 
                           /* pillar section styles */
 
-.pillar-section , .vision-section, .text-area, .opinion, .news-section{
+.pillar-section , .vision-section, .text-area, .opinion, .news-section , .newsletter{
     margin: 31px 160px;
 }
 .pillar-items{
@@ -266,4 +269,42 @@ section input[type="text"]{
 .done-now-btn{
     text-align: center;
     margin-top: 32px;
+}
+
+/* News-letter section styles */
+.newsletter{
+    border: none;
+    border-radius: 24px;
+    padding: 80px 120px;
+    background-color: #C6E4D6;
+}
+.newsletter-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.newsletter-description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.email-subscibebtn-section {
+    display: flex;
+    justify-content: space-between;
+}
+input[type="email"]{
+    width: 243%;
+    padding: 18px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0px 0px 5px; 
+}
+.subscribe-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 17px 34px;
 }
