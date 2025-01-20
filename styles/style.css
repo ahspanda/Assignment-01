@@ -42,6 +42,7 @@ body{
     border: none;
     border-radius: 8px;
     padding: 17px 34px;
+    margin-top: 32px;
 }
 .text-allign{
     text-align: center;
@@ -153,6 +154,7 @@ nav li > a{
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
+    margin-top: 24px;
 }
 .text-area-content{
     background-color: white;
@@ -213,18 +215,22 @@ select {
 .news-section-title{
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 12px ;
 }
 .news-image{
      border-radius: 24px;
      margin: 48px 32px 48px 48px ;
  }
-
+.newspaper-name{
+    margin-bottom: 12px;
+}
                         /* Donate-section-Styles */
 
 .donate-title{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .donate-description{
@@ -273,7 +279,7 @@ section input[type="text"]{
 }
 .done-now-btn{
     text-align: center;
-    margin-top: 32px;
+    
 }
 
                         /* News-letter section styles */
@@ -282,6 +288,7 @@ section input[type="text"]{
     border-radius: 24px;
     padding: 80px 120px;
     background-color: #C6E4D6;
+    margin-top: 32px;
 }
 .newsletter-heading{
     text-align: center;
@@ -336,4 +343,8 @@ footer{
 }
 .social-media a{
     margin-right: 23px;
+}
+.hr-line{
+    background-color: #006A50;
+    align-items: center;
 }
