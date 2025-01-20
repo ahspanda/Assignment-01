@@ -157,7 +157,7 @@ nav li > a{
     border: none;
 }
 
-/* opinion section styles */
+                        /* opinion section styles */
 .table-div{
     background-color: white;
     padding: 32px;
@@ -196,7 +196,8 @@ select {
     font-weight: 600;
   }
 
-  /* News Section Styels */
+                     /* News Section Styels */
+
 .news-section-1, .news-section-2 , .news-section-3{
     display: flex;
     background-color: white;
@@ -214,7 +215,7 @@ select {
      margin: 48px 32px 48px 48px ;
  }
 
-/* Donate-Styles */
+                        /* Donate-section-Styles */
 
 .donate-title{
     text-align: center;
@@ -271,7 +272,7 @@ section input[type="text"]{
     margin-top: 32px;
 }
 
-/* News-letter section styles */
+                        /* News-letter section styles */
 .newsletter{
     border: none;
     border-radius: 24px;
@@ -309,7 +310,7 @@ input[type="email"]{
     padding: 17px 34px;
 }
 
-/* footer-styles */
+                    /* footer-styles */
 footer{
     background-color: white;
     max-width: 1600;
@@ -323,6 +324,7 @@ footer{
 }
 .social-media{
     text-align: center;
+    margin-top: 32px;
 }
 .social-media a{
     margin-right: 23px;
