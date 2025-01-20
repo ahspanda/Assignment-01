@@ -308,3 +308,22 @@ input[type="email"]{
     border-radius: 0px 5px 5px 0px;
     padding: 17px 34px;
 }
+
+/* footer-styles */
+footer{
+    background-color: white;
+    max-width: 1600;
+    margin: 0 auto;
+}
+.footer-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 50px 50px 0px 50px;
+}
+.social-media{
+    text-align: center;
+}
+.social-media a{
+    margin-right: 23px;
+}
