@@ -292,11 +292,14 @@ section input[type="text"]{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 24px;
     
 }
 .email-subscibebtn-section {
     display: flex;
     justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 input[type="email"]{
     width: 243%;
@@ -317,8 +320,6 @@ input[type="email"]{
                     /* footer-styles */
 footer{
     background-color: white;
-    max-width: 1600;
-
 }
 .footer-title{
     text-align: center;
@@ -329,8 +330,9 @@ footer{
 }
 .social-media{
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 50px;
+    /* margin-top: 32px;
+    margin-bottom: 50px; */
+    padding: 32px;
 }
 .social-media a{
     margin-right: 23px;
